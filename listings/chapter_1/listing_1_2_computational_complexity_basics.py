@@ -1,12 +1,12 @@
 def add_two(x: float, y: float) -> float:
     """
-    O(1) because is performs one addition
+    O(1) because it performs one addition
     """
     return x + y
 
 def add_a_few(x: float, y: float, z: float) -> float:
     """
-    O(1) because is performs 2 additions
+    O(1) because it performs 2 additions
     """
     return x + y + z
 
@@ -31,7 +31,7 @@ def loop_through_it_squarely(n: int) -> int:
 
 def loop_through_it_twice(n: int) -> int:
     """
-    O(n) because it performs 2*n additions and n 
+    O(n) because it performs 2*n additions and n
     multiplications
     """
     value = 0
